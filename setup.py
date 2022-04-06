@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Setup script for the TFAFramework.
+Setup script for pymilestone.
 """
 
 import setuptools
