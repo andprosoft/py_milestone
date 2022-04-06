@@ -1,10 +1,40 @@
 Installation
 ############
 
-Installation into Environment
-+++++++++++++++++++++++++++++
+Installation from pip
++++++++++++++++++++++
 
-To install py_milestone, first download the entire source.
+The easiest instalation routine is by using pip.
+
+Open an Anaconda Prompt (Start --> Anaconda 3 --> Anaconda Prompt) and
+load the desired environment:
+
+.. code-block:: console
+
+    conda activate env_name
+    
+Replace ``env_name`` with the name of the desired environment. Now, pymilestone
+can be installed:
+
+.. code-block:: console
+
+    pip install pymilestone
+
+This will install pymilestone. It can now be imported in the following
+way:
+
+.. code-block:: python
+
+    from pymilestone import Milestoneplan, Task, Milestone, Caption, Subcaption, Category
+    
+    # ...
+
+
+
+Installation from Source
+++++++++++++++++++++++++
+
+To install py_milestone from source, first download the entire source.
 In the example, the directory will be saved in ``D:\py_milestone``.
 You must adjust the commands to your respective download location.
 
@@ -29,7 +59,7 @@ Now, enter the following command:
 
     python setup.py install
     
-This will install the capital analyzer. It can now be imported in the following
+This will install pymilestone. It can now be imported in the following
 way:
 
 .. code-block:: python
@@ -55,7 +85,7 @@ from py_milestone).
     
     # ...
     
-Adjust the path to the ``python`` directory in the ``site.addssitedir()``
+Adjust the path to the ``pymilestone\python`` directory in the ``site.addssitedir()``
 command.
 
 
