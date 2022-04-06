@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ignore working directories
+build/
+dist/
+old/
+doc/
+spielwiese*
+
